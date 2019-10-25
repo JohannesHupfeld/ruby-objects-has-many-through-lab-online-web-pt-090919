@@ -15,6 +15,7 @@ class Doctor
 
   def patients
     appointments.collect {|appointment| appointment.patient}
+    binding.pry
   end
 
   def self.all
